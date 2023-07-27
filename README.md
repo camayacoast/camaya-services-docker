@@ -23,7 +23,7 @@ to install Make file in MacOs and in Linux just open the terminal and type sudo 
 Clone this application. after you clone this app you need to go terminal and locate backend/laravel-app and type sudo chmod o+w ./laravel-app/ -R a
 
 ## How to install 
-To install this app you just need to type docker-compose up -d and docker will download all the packages and drivers that you needed
+To install this app you just need to type docker-compose up -d and docker will download all the packages and drivers that you needed and after it finnish type docker ps and see if all services was running.
 
 ## Ports that has been used 
 All ports that has been used in this app
