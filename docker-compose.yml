@@ -59,6 +59,8 @@ services:
     ports:
       - 3006:3006
     restart: unless-stopped
+    volumes:
+      - ./data/mysql:/var/lib/mysql   
     networks:
       - web-app
 
