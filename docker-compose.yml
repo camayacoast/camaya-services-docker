@@ -17,7 +17,7 @@ services:
     networks:
       - web-app
 
-  backend-services:
+  backend-dev:
     container_name: backend-services
     build:
       context: ./
@@ -45,7 +45,7 @@ services:
       - ./backend/laravel-app:/var/www/html:delegated
       - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
     depends_on:
-      - backend-services
+      - backend-dev
       - mysql_db
     restart: unless-stopped
     networks:
