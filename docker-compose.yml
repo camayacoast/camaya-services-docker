@@ -17,7 +17,7 @@ services:
     networks:
       - web-app
 
-  backend-dev:
+  backend-services:
     container_name: backend-services
     build:
       context: ./
