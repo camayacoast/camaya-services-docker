@@ -57,7 +57,7 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: web-app
     ports:
-      - 3006:3006
+      - 3007:3007
     restart: unless-stopped
     volumes:
       - ./data/mysql:/var/lib/mysql   
@@ -67,7 +67,7 @@ services:
   phpmyadmin:
     image: phpmyadmin:latest
     ports:
-      - 9001:80
+      - 9002:80
     environment:
       - PMA_ARBITRARY=1
     restart: unless-stopped
