@@ -18,7 +18,7 @@ services:
       - web-app
 
   backend-dev:
-    container_name: backend-laravel
+    container_name: backend-services
     build:
       context: ./
       dockerfile: ./backend/Dockerfile
