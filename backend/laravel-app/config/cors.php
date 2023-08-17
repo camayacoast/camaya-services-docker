@@ -15,7 +15,20 @@ return [
     |
     */
 
-    'paths' => ['api/*', 'sanctum/csrf-cookie'],
+    'paths' => [
+        'api/*',
+        'login',
+        'sanctum/csrf-cookie',
+
+        'api/booking/public/payment/paypal/success',
+        'api/booking/public/voucher-payment/paypal/success',
+        'api/booking/create-as-guest',
+        'test',
+
+        'pay-online/*',
+        'pay-online-return/*',
+        'pay-online-postback/*'
+    ],
 
     'allowed_methods' => ['*'],
 
@@ -29,6 +42,6 @@ return [
 
     'max_age' => 0,
 
-    'supports_credentials' => false,
+    'supports_credentials' => true,
 
 ];

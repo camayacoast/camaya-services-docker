@@ -1,0 +1,56 @@
+{
+    "subdivisions": [
+        {
+            "code": "PHS",
+            "subdivision": "PELANGI HEIGHTS SOUTH"
+        },
+        {
+            "code": "PHN",
+            "subdivision": "PELANGI HEIGHTS NORTH"
+        },
+        {
+            "code": "KHS",
+            "subdivision": "KENCANA HILLS SOUTH"
+        },
+        {
+            "code": "KHN",
+            "subdivision": "KENCANA HILLS NORTH"
+        },
+        {
+            "code": "MPN",
+            "subdivision": "MENARA POINT NORTH"
+        },
+        {
+            "code": "MPS",
+            "subdivision": "MENARA POINT SOUTH"
+        },
+        {
+            "code": "MKT1",
+            "subdivision": "MONTH KIARA TERRACES 1"
+        },
+        {
+            "code": "MKT2",
+            "subdivision": "MONTH KIARA TERRACES 2"
+        },
+        {
+            "code": "BP",
+            "subdivision": "BAYU PEAK"
+        },
+        {
+            "code": "TGR",
+            "subdivision": "TANDATANGAN GOLF RESIDENCES"
+        },
+        {
+            "code": "TR",
+            "subdivision": "TAMAN RIDGE"
+        },
+        {
+            "code": "QGR",
+            "subdivision": "QUINAWAN GOLF RESIDENCES"
+        },
+        {
+            "code": "GTC",
+            "subdivision": "GOLF TOWN COMMERCIAL"
+        }
+    ]
+}
